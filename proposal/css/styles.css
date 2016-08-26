@@ -1,0 +1,498 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FFA07A
+}
+
+h1 {
+	color: #ADD8E6;
+	text-shadow: .5px .5px .5px #222;
+	margin-bottom: 50px;
+}
+
+/**HEADER**/
+
+.navbar {
+	background-color:  #F0E68C;
+	border: 0;
+}
+.navbar-brand {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: .5px .5px .5px #222;
+	line-height: 2;
+  	margin-top: 0;
+  	margin-bottom: 0;
+ 	line-height: .75;
+	color: #ADD8E6;
+}
+
+#nav-list a {
+  color: #FFA07A;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/*BODY*/
+
+#text-header {
+	font-size: 1.7em;
+	text-align: center;
+	text-shadow: 1px 1px 1px #222;
+	padding-bottom: 20px;
+}
+
+#home-text {
+	margin-bottom: 40px;
+	margin-left: 15px;
+}
+
+#dog-text {
+	margin-right: 40px;
+	margin-left: 60px;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#girl-text {
+	margin-top: 20px;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 460px;
+  width: 80%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#menu-tile {
+  background: url('../images/dakota.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/amber.jpg') no-repeat;
+  background-position: center;
+}
+
+#question {
+  text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 2em;
+	color: #ADD8E6;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+#answer {
+	color: #DC143C;
+}
+
+#pics-1 {
+	position: relative;
+	width: 26%;
+	height: 230px;
+	margin: 2% 9.5% 2% 9.5%;
+	border: 1px solid black;
+	background: url('../images/pic-1.jpg') no-repeat;
+	background-position: center;
+	left: 5%;
+}
+
+#pics-2 {
+	width: 26%;
+	height: 230px;
+	margin: 2% 9.5% 2% 9.5%;
+	border: 1px solid black;
+	background: url('../images/pic-2.jpg') no-repeat;
+	background-position: center;
+	left: 5%;
+}
+
+#pics-3 {
+	position: relative;
+	width: 26%;
+	height: 230px;
+	margin: 2% 9.5% 2% 9.5%;
+	border: 1px solid black;
+	background: url('../images/pic-3.jpg') no-repeat;
+	background-position: center;
+	left: 5%;
+}
+
+#pics-4 {
+	width: 26%;
+	height: 230px;
+	margin: 2% 9.5% 2% 9.5%;
+	border: 1px solid black;
+	background: url('../images/pic-4.jpg') no-repeat;
+	background-position: center;
+	left: 5%;
+}
+
+h2 {
+	text-align: center;
+	color: #ADD8E6;
+	margin-bottom: 30px;
+	margin-top: 35px;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#wedding {
+	margin-top: 20px;
+	border: 0px;
+	border-top: 3px #FFA07A;
+}
+
+
+@media (min-width: 1200px) {
+	.container .jumbotron {
+	  background: url('../images/jumbotron.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#dakota-jumbo {
+	  background: url('../images/pic-jumbo.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+		background-position: center;
+}
+
+#proposal {
+	background: url('../images/prop-jumbo.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#wedding {
+	background: url('../images/dakota.jpg') no-repeat;
+		width: 580px;
+		height: 580px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#wtf {
+	background: url('../images/wtf-md.jpg') no-repeat;
+		width: 580px;
+		height: 580px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron {
+	  background: url('../images/jumbotron.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#dakota-jumbo {
+	  background: url('../images/pic-jumbo.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+		background-position: center;
+}
+
+#proposal {
+	background: url('../images/prop-jumbo.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#wedding {
+	background: url('../images/dakota.jpg') no-repeat;
+		width: 580px;
+		height: 580px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#wtf {
+	background: url('../images/wtf-md.jpg') no-repeat;
+		width: 580px;
+		height: 580px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#pics-1 {
+	position: relative;
+	width: 31%;
+}
+
+#pics-2 {
+	width: 31%;
+}
+
+#pics-3 {
+	position: relative;
+	width: 31%;
+}
+
+#pics-4 {
+	width: 31%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.container .jumbotron {
+	  background: url('../images/sm.jpg') no-repeat;
+		width: 650px;
+		height: 650px;
+		margin-right: auto;
+		margin-left: auto;
+		background-position: center;
+		margin-bottom: 50px;
+		margin-top: -70px;
+	}
+	
+#proposal {
+	background: url('../images/prop-jumbo-md.jpg') no-repeat;
+		width: 650px;
+		height: 650px;
+		margin-right: auto;
+		margin-left: auto;
+		background-position: center;
+		margin-bottom: 50px;
+		margin-top: -70px;
+}
+
+#home-text {
+	margin-top: -65px;
+}
+
+#dakota-jumbo {
+	  background: url('../images/pic-md.jpg') no-repeat;
+		width: 650px;
+		height: 650px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#wedding {
+	background: url('../images/dakota.jpg') no-repeat;
+		width: 580px;
+		height: 580px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#wtf {
+	background: url('../images/wtf-md.jpg') no-repeat;
+		width: 580px;
+		height: 580px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+#pics-1 {
+		background: url('../images/pic-1-md.jpg') no-repeat;
+		width: 30%;
+		height: 210px;
+		position: relative;
+}
+
+#pics-2 {
+		background: url('../images/pic-2-md.jpg') no-repeat;
+		width:  30%;
+		height: 210px;
+}
+
+#pics-3 {
+		background: url('../images/pic-3-md.jpg') no-repeat;
+		width:  30%;
+		height: 210px;
+		position: relative;
+}
+
+#pics-4 {
+		background: url('../images/pic-4-md.jpg') no-repeat;
+		width: 30%;
+		height: 210px;
+}
+}
+
+@media (max-width: 767px) {
+.container .jumbotron {
+		background: url('../images/jumbo-sm.jpg') no-repeat;
+		width: 93%;
+		height: 300px;
+		margin-right: auto;
+		margin-left: auto;
+		background-position: center;
+		margin-top: -32px;
+}
+
+#dakota-jumbo {
+	  background: url('../images/rsz_pic-md.jpg') no-repeat;
+		width: 93%;
+		height: 650px;
+		margin-right: auto;
+		margin-left: auto;
+		background-position: center;
+		margin-top: -120px;
+		margin-bottom: 80px;
+}
+
+#proposal {
+		background: url('../images/prop-jumbo-sm.jpg') no-repeat;
+		width: 93%;
+		height: 300px;
+		margin-right: auto;
+		margin-left: auto;
+		background-position: center;
+		margin-top: -32px;
+}
+
+#wedding {
+	background: url('../images/dakota-xs.jpg') no-repeat;
+		width: 93%;
+		height: 300px;
+		margin-right: auto;
+		margin-left: auto;
+		background-position: center;
+		margin-top: -32px;
+}
+
+#wtf {
+	background: url('../images/wtf-sm.jpg') no-repeat;
+		width: 93%;
+		height: 300px;
+		margin-right: auto;
+		margin-left: auto;
+		background-position: center;
+		margin-top: -32px;
+}
+
+#collapsable-nav {
+	background-color: #F0E68C;
+	width: 100%;
+	height: 122px;
+	clear: left;
+	margin: 0;
+	}
+
+#menu-tile {
+	background: url('../images/dakota-sm.jpg') no-repeat;
+	height: 240px;
+	margin: 0 auto 15px;
+	width: 230px;
+	margin-bottom: 40px;
+}
+
+#specials-tile {
+  background: url('../images/amber-sm.jpg') no-repeat;
+	height: 240px;
+	margin: 0 auto 15px;
+	width: 230px;
+}
+
+#pics-1 {
+		background: url('../images/pic-1-sm.jpg') no-repeat;
+		position: relative;
+		width: 100%;
+		background-position: center;
+		border: 0;
+		margin: 0;
+		left: 0;
+		margin-top: -30px;
+}
+
+#pics-2 {
+		background: url('../images/pic-2-sm.jpg') no-repeat;
+		position: relative;
+		width: 100%;
+		background-position: center;
+		border: 0;
+		margin: 0;
+		left: 0;
+}
+
+#pics-3 {
+		background: url('../images/pic-3-sm.jpg') no-repeat;
+		position: relative;
+		width: 100%;
+		background-position: center;
+		border: 0;
+		margin: 0;
+		left: 0;
+}
+
+#pics-4 {
+		background: url('../images/pic-4-sm.jpg') no-repeat;
+		position: relative;
+		width: 100%;
+		background-position: center;
+		border: 0;
+		margin: 0;
+		left: 0;
+}
+
+#dog-text {
+	margin-top: -150px;
+}
+
+h2 {
+	margin-bottom: 50px;
+}
+
+#dog-text {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#home-text {
+	margin-left: 0;
+	margin-right: 0;
+}
+}

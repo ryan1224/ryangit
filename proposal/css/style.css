@@ -1,0 +1,216 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ADD8E6
+}
+
+h1 {
+	color: #FFA07A;
+	text-shadow: .5px .5px .5px #222;
+	
+#food {
+	pull: left;
+}
+	
+}
+
+/**HEADER**/
+#header-nav {
+	background-color: #F0E68C ;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: 2;
+  	margin-top: 0;
+  	margin-bottom: 0;
+ 	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#nav-list a:hover {
+	background: #FFA07A;
+}
+
+/*BODY*/
+
+#menu-text {
+	text-shadow: 1px 1px 1px #222;
+    background-color: #FFA07A; 
+    margin: 50px;
+    padding: 10px;
+}
+
+#text-header {
+	font-size: 1.7em;
+	text-align: center;
+	text-shadow: 1px 1px 1px #222;
+	padding-bottom: 20px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 450px;
+  width: 80%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#menu-tile {
+  background: url('../images/dakota.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/amber.jpg') no-repeat;
+  background-position: center;
+}
+
+#pics-1 {
+	position: relative;
+	width: 26%;
+	height: 230px;
+	margin: 2% 9.5% 2% 9.5%;
+	border: 1px solid black;
+	background: url('../images/pic-1.jpg') no-repeat;
+	left: 5%;
+}
+
+#pics-2 {
+	width: 26%;
+	height: 230px;
+	margin: 2% 9.5% 2% 9.5%;
+	border: 1px solid black;
+	background: url('../images/pic-2.jpg') no-repeat;
+	left: 5%;
+}
+
+#pics-3 {
+	position: relative;
+	width: 26%;
+	height: 230px;
+	margin: 2% 9.5% 2% 9.5%;
+	border: 1px solid black;
+	background: url('../images/pic-3.jpg') no-repeat;
+	left: 5%;
+}
+
+
+@media (min-width: 1200px) {
+	.container .jumbotron {
+	  background: url('../images/jumbotron.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 40px;
+}
+
+#dakota-jumbo {
+	  background: url('../images/pic-jumbo.jpg') no-repeat;
+		width: 750px;
+		height: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 40px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron {
+	  background: url('../images/jumbotron-md.jpg') no-repeat;
+		width: 600px;
+		height: 700px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 40px;
+}
+
+#dakota-jumbo {
+	  background: url('../images/pic-md.jpg') no-repeat;
+		width: 600px;
+		height: 700px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 40px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+	  background: url('../images/sm.jp') no-repeat;
+		width: 650px;
+		height: 650px;
+		margin-right: auto;
+		margin-left: auto;
+}
+
+#dakota-jumbo {
+	  background: url('../images/pic-md.jp') no-repeat;
+		width: 650px;
+		height: 650px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: -20px;
+}
+
+@media (max-width: 766px) {
+.container .jumbotron {
+	  background: url('../images/sm.jp') no-repeat;
+		width: 500px;
+		height: 500px;
+		margin-right: auto;
+		margin-left: auto;
+}
+
+#dakota-jumbo {
+	  background: url('../images/pic-md.jp') no-repeat;
+		width: 650px;
+		height: 650px;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: hidden;
+}
+
+#collapsable-nav {
+	background-color: #FFA07A;
+	width: 100%;
+	height: 150px;
+	clear: left;
+	margin: 0;
+	}
+
+#menu-tile {
+	background: url('../images/dakota-sm.jpg') no-repeat;
+	height: 333px;
+	margin: 0 auto 15px;
+	width: 230px;
+}
+
+#specials-tile {
+  background: url('../images/amber-sm.jpg') no-repeat;
+	height: 333px;
+	margin: 0 auto 15px;
+	width: 230px;
+}
+}
